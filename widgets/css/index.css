@@ -1,0 +1,17 @@
+.clock {
+  font-family: 'Inconsolata', monospace;
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  height: 100px;
+  width: 450px;
+  font-size: 30px;
+  color: white;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.clock-right {
+  float: right;
+}
