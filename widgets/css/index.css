@@ -15,3 +15,31 @@
 .clock-right {
   float: right;
 }
+
+.tabs {
+  display: flex;
+  margin: 0 auto;
+  background-color: beige;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+}
+
+.tab-header{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: none;
+}
+
+.tab-content{
+  padding: 10px;
+  padding-top: 0px;
+  border: 1px solid grey;
+  border-top: none;
+}
+
+.tab-header > li{
+  border: 1px solid grey;
+  padding: 10px;
+}

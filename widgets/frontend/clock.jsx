@@ -22,12 +22,12 @@ class Clock extends React.Component{
       <div className="clock">
         <div className="time">
           <label>Current Time</label>
-          <p class="clock-right">{this.state.time.toLocaleTimeString('it-IT')}</p>
+          <p className="clock-right">{this.state.time.toLocaleTimeString('it-IT')}</p>
         </div>
         <br></br>
         <div>
           <label>Today's Date</label>
-          <p class="clock-right">{this.state.time.toLocaleDateString('en-US', options)}</p>
+          <p className="clock-right">{this.state.time.toLocaleDateString('en-US', options)}</p>
         </div>
 
       </div>
